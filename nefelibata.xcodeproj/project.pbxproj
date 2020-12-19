@@ -11,6 +11,7 @@
 		080C667F258D224100787563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080C667E258D224100787563 /* ContentView.swift */; };
 		080C6681258D224200787563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C6680258D224200787563 /* Assets.xcassets */; };
 		080C6684258D224200787563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C6683258D224200787563 /* Preview Assets.xcassets */; };
+		084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B6B7C258E039A000138A6 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		080C6680258D224200787563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080C6683258D224200787563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		080C6685258D224200787563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084B6B7C258E039A000138A6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				080C667C258D224100787563 /* nefelibataApp.swift */,
 				080C667E258D224100787563 /* ContentView.swift */,
+				084B6B7C258E039A000138A6 /* WelcomeView.swift */,
 				080C6680258D224200787563 /* Assets.xcassets */,
 				080C6685258D224200787563 /* Info.plist */,
 				080C6682258D224200787563 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				080C667F258D224100787563 /* ContentView.swift in Sources */,
+				084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */,
 				080C667D258D224100787563 /* nefelibataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
