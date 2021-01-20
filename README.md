@@ -4,7 +4,7 @@
 1. Grid
 2. GeometryReader
 
-`GeometryReader` 能够获取父 view 建议的尺寸
+  `GeometryReader` 能够获取父 view 建议的尺寸
 
 > 大学几年学习感言
 
