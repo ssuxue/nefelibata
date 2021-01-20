@@ -12,6 +12,11 @@
 		080C6681258D224200787563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C6680258D224200787563 /* Assets.xcassets */; };
 		080C6684258D224200787563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C6683258D224200787563 /* Preview Assets.xcassets */; };
 		084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B6B7C258E039A000138A6 /* WelcomeView.swift */; };
+		0869675B2594C71A0097E833 /* SmallBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869675A2594C71A0097E833 /* SmallBackgroundView.swift */; };
+		0869675E2594C93A0097E833 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869675D2594C93A0097E833 /* SmallView.swift */; };
+		088402FC25B7D67E00F04241 /* EmojiGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088402FB25B7D67E00F04241 /* EmojiGameView.swift */; };
+		0884030425B7DE6B00F04241 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */; };
+		0884030925B7E27F00F04241 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884030825B7E27F00F04241 /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		080C6683258D224200787563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		080C6685258D224200787563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		084B6B7C258E039A000138A6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0869675A2594C71A0097E833 /* SmallBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBackgroundView.swift; sourceTree = "<group>"; };
+		0869675D2594C93A0097E833 /* SmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallView.swift; sourceTree = "<group>"; };
+		088402FB25B7D67E00F04241 /* EmojiGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGameView.swift; sourceTree = "<group>"; };
+		0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		0884030825B7E27F00F04241 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				080C667C258D224100787563 /* nefelibataApp.swift */,
 				080C667E258D224100787563 /* ContentView.swift */,
 				084B6B7C258E039A000138A6 /* WelcomeView.swift */,
+				0869675A2594C71A0097E833 /* SmallBackgroundView.swift */,
+				0869675D2594C93A0097E833 /* SmallView.swift */,
+				0884030825B7E27F00F04241 /* MemoryGame.swift */,
+				088402FB25B7D67E00F04241 /* EmojiGameView.swift */,
+				0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */,
 				080C6680258D224200787563 /* Assets.xcassets */,
 				080C6685258D224200787563 /* Info.plist */,
 				080C6682258D224200787563 /* Preview Content */,
@@ -141,9 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088402FC25B7D67E00F04241 /* EmojiGameView.swift in Sources */,
+				0869675B2594C71A0097E833 /* SmallBackgroundView.swift in Sources */,
+				0884030925B7E27F00F04241 /* MemoryGame.swift in Sources */,
+				0869675E2594C93A0097E833 /* SmallView.swift in Sources */,
 				080C667F258D224100787563 /* ContentView.swift in Sources */,
 				084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */,
 				080C667D258D224100787563 /* nefelibataApp.swift in Sources */,
+				0884030425B7DE6B00F04241 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
