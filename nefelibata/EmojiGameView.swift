@@ -41,12 +41,12 @@ struct CardView: View {
     func body(for size: CGSize) -> some View {
         ZStack {
             if card.isFaceUp {
-                RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
-                RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3)
+                RoundedRectangle(cornerRadius: cornerRadius).fill(Color.white)
+                RoundedRectangle(cornerRadius: cornerRadius).stroke(lineWidth: edgeLineWidth)
                 Text(card.content)
             }
             else {
-                RoundedRectangle(cornerRadius: 10.0).fill()
+                RoundedRectangle(cornerRadius: cornerRadius).fill()
             }
         }
         .font(Font.system(size: fontSize(for: size)))
