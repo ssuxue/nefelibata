@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,18 @@
 		080C667F258D224100787563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080C667E258D224100787563 /* ContentView.swift */; };
 		080C6681258D224200787563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C6680258D224200787563 /* Assets.xcassets */; };
 		080C6684258D224200787563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080C6683258D224200787563 /* Preview Assets.xcassets */; };
+		0819EDDA25B936F0000BBC33 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0819EDD925B936F0000BBC33 /* GridView.swift */; };
+		0819EDDD25B93AFC000BBC33 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0819EDDC25B93AFC000BBC33 /* GridLayout.swift */; };
 		084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B6B7C258E039A000138A6 /* WelcomeView.swift */; };
+		08648AAF25BD335400C94972 /* DrawerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648AAE25BD335400C94972 /* DrawerLayout.swift */; };
+		08648AB325BD488E00C94972 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 08648AB225BD488E00C94972 /* SDWebImageSwiftUI */; };
 		0869675B2594C71A0097E833 /* SmallBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869675A2594C71A0097E833 /* SmallBackgroundView.swift */; };
 		0869675E2594C93A0097E833 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869675D2594C93A0097E833 /* SmallView.swift */; };
 		088402FC25B7D67E00F04241 /* EmojiGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088402FB25B7D67E00F04241 /* EmojiGameView.swift */; };
 		0884030425B7DE6B00F04241 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */; };
 		0884030925B7E27F00F04241 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884030825B7E27F00F04241 /* MemoryGame.swift */; };
+		089F3A2825B9592C0039C8C6 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F3A2725B9592C0039C8C6 /* Array+Identifiable.swift */; };
+		089F3A2B25B988490039C8C6 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F3A2A25B988490039C8C6 /* Array+Only.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +32,17 @@
 		080C6680258D224200787563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080C6683258D224200787563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		080C6685258D224200787563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0819EDD925B936F0000BBC33 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		0819EDDC25B93AFC000BBC33 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		084B6B7C258E039A000138A6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		08648AAE25BD335400C94972 /* DrawerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerLayout.swift; sourceTree = "<group>"; };
 		0869675A2594C71A0097E833 /* SmallBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBackgroundView.swift; sourceTree = "<group>"; };
 		0869675D2594C93A0097E833 /* SmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallView.swift; sourceTree = "<group>"; };
 		088402FB25B7D67E00F04241 /* EmojiGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGameView.swift; sourceTree = "<group>"; };
 		0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		0884030825B7E27F00F04241 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		089F3A2725B9592C0039C8C6 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		089F3A2A25B988490039C8C6 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08648AB325BD488E00C94972 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,9 +81,14 @@
 				084B6B7C258E039A000138A6 /* WelcomeView.swift */,
 				0869675A2594C71A0097E833 /* SmallBackgroundView.swift */,
 				0869675D2594C93A0097E833 /* SmallView.swift */,
+				0819EDD925B936F0000BBC33 /* GridView.swift */,
+				0819EDDC25B93AFC000BBC33 /* GridLayout.swift */,
+				089F3A2725B9592C0039C8C6 /* Array+Identifiable.swift */,
+				089F3A2A25B988490039C8C6 /* Array+Only.swift */,
 				0884030825B7E27F00F04241 /* MemoryGame.swift */,
 				088402FB25B7D67E00F04241 /* EmojiGameView.swift */,
 				0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */,
+				08648AAE25BD335400C94972 /* DrawerLayout.swift */,
 				080C6680258D224200787563 /* Assets.xcassets */,
 				080C6685258D224200787563 /* Info.plist */,
 				080C6682258D224200787563 /* Preview Content */,
@@ -103,6 +120,9 @@
 			dependencies = (
 			);
 			name = nefelibata;
+			packageProductDependencies = (
+				08648AB225BD488E00C94972 /* SDWebImageSwiftUI */,
+			);
 			productName = nefelibata;
 			productReference = 080C6679258D224100787563 /* nefelibata.app */;
 			productType = "com.apple.product-type.application";
@@ -130,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 080C6670258D224100787563;
+			packageReferences = (
+				08648AB125BD488E00C94972 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 080C667A258D224100787563 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,10 +182,15 @@
 				088402FC25B7D67E00F04241 /* EmojiGameView.swift in Sources */,
 				0869675B2594C71A0097E833 /* SmallBackgroundView.swift in Sources */,
 				0884030925B7E27F00F04241 /* MemoryGame.swift in Sources */,
+				089F3A2B25B988490039C8C6 /* Array+Only.swift in Sources */,
 				0869675E2594C93A0097E833 /* SmallView.swift in Sources */,
 				080C667F258D224100787563 /* ContentView.swift in Sources */,
 				084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */,
 				080C667D258D224100787563 /* nefelibataApp.swift in Sources */,
+				089F3A2825B9592C0039C8C6 /* Array+Identifiable.swift in Sources */,
+				08648AAF25BD335400C94972 /* DrawerLayout.swift in Sources */,
+				0819EDDD25B93AFC000BBC33 /* GridLayout.swift in Sources */,
+				0819EDDA25B936F0000BBC33 /* GridView.swift in Sources */,
 				0884030425B7DE6B00F04241 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08648AB125BD488E00C94972 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08648AB225BD488E00C94972 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08648AB125BD488E00C94972 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 080C6671258D224100787563 /* Project object */;
 }

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "off.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "switch_on_74.137404580153px_1228855_easyicon.net.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "switch_on_98.849872773537px_1228855_easyicon.net.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
