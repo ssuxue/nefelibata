@@ -16,7 +16,7 @@ struct DrawerLayout: View {
             GeometryReader { _ in
                 VStack {
                     ZStack {
-                        HStack {
+                        HStack(spacing: 10.0) {
                             Button(action: {
                                 withAnimation(.default) {
                                     self.show.toggle()
@@ -27,16 +27,28 @@ struct DrawerLayout: View {
                                     .frame(width: 35, height: 35)
                             }
                             
-                            VStack(spacing: 4.0) {
+                            VStack(alignment: .leading, spacing: 4.0) {
                                 Text("池映月")
-                                Text("手机在线 - WiFi")
-                                    .font(.caption)
+                                HStack {
+                                    Image(systemName: "circle.fill")
+                                        .font(.caption)
+                                        .foregroundColor(.green)
+                                    Text("手机在线 - WiFi")
+                                        .font(.caption)
+                                }
                             }
                             
                             Spacer()
                         }
                         
-                        Text("主页")
+                        HStack(spacing: 15.0) {
+                            Spacer()
+                        
+                            Image(systemName: "camera")
+                            
+                            Image(systemName: "plus")
+                                .font(.title2)
+                        }
                     }
                     .padding()
                     .foregroundColor(.primary)
@@ -44,18 +56,23 @@ struct DrawerLayout: View {
                     
                     Spacer()
                     
-                    NavigationView {
-                        // TODO: 这里有个问题，编程深色模式后MessageView的各种效果都没用了
-                        MessageView(dark: self.$dark)
-                            .navigationTitle("消息")
-                            .navigationBarTitleDisplayMode(.inline)
-//                            .navigationBarItems(trailing: Button(action: {}) {
-//                                Image(systemName: "square.and.pencil")
-//                                    .font(.title)
-//                            })
-                            .navigationBarHidden(true)
-                    }
-                    
+//                    NavigationView {
+//                        // TODO: 这里有个问题，编程深色模式后MessageView的各种效果都没用了
+//                        MessageView(dark: self.$dark)
+//                            .navigationTitle("消息")
+//                            .navigationBarTitleDisplayMode(.inline)
+////                            .navigationBarItems(trailing: Button(action: {}) {
+////                                Image(systemName: "square.and.pencil")
+////                                    .font(.title)
+////                            })
+//                            .navigationBarHidden(true)
+//                    }
+                    CustomNavigationView(view: MessageView(dark: self.$dark), onSearch: { (txt) in
+                        
+                    }, onCancel: {
+                        
+                    })
+                        
                     Spacer()
                 }
             }

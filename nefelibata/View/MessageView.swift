@@ -113,6 +113,6 @@ struct MessageView: View {
 
 struct MessageView_Previews: PreviewProvider {
     static var previews: some View {
-        MessageView(dark: .constant(true))
+        MessageView(dark: .constant(false))
     }
 }
