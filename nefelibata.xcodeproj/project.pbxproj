@@ -16,6 +16,9 @@
 		084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084B6B7C258E039A000138A6 /* WelcomeView.swift */; };
 		08648AAF25BD335400C94972 /* DrawerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648AAE25BD335400C94972 /* DrawerLayout.swift */; };
 		08648AB325BD488E00C94972 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 08648AB225BD488E00C94972 /* SDWebImageSwiftUI */; };
+		08648ABB25BD4BF100C94972 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648ABA25BD4BF100C94972 /* Message.swift */; };
+		08648ABF25BD4CCC00C94972 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648ABE25BD4CCC00C94972 /* MessageView.swift */; };
+		08648AC225BD4D7300C94972 /* MessageMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08648AC125BD4D7300C94972 /* MessageMemory.swift */; };
 		0869675B2594C71A0097E833 /* SmallBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869675A2594C71A0097E833 /* SmallBackgroundView.swift */; };
 		0869675E2594C93A0097E833 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869675D2594C93A0097E833 /* SmallView.swift */; };
 		088402FC25B7D67E00F04241 /* EmojiGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088402FB25B7D67E00F04241 /* EmojiGameView.swift */; };
@@ -36,6 +39,9 @@
 		0819EDDC25B93AFC000BBC33 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		084B6B7C258E039A000138A6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		08648AAE25BD335400C94972 /* DrawerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerLayout.swift; sourceTree = "<group>"; };
+		08648ABA25BD4BF100C94972 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		08648ABE25BD4CCC00C94972 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		08648AC125BD4D7300C94972 /* MessageMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMemory.swift; sourceTree = "<group>"; };
 		0869675A2594C71A0097E833 /* SmallBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallBackgroundView.swift; sourceTree = "<group>"; };
 		0869675D2594C93A0097E833 /* SmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallView.swift; sourceTree = "<group>"; };
 		088402FB25B7D67E00F04241 /* EmojiGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGameView.swift; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				0884030825B7E27F00F04241 /* MemoryGame.swift */,
+				08648ABA25BD4BF100C94972 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */,
+				08648AC125BD4D7300C94972 /* MessageMemory.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 				084B6B7C258E039A000138A6 /* WelcomeView.swift */,
 				0819EDD925B936F0000BBC33 /* GridView.swift */,
 				08648AAE25BD335400C94972 /* DrawerLayout.swift */,
+				08648ABE25BD4CCC00C94972 /* MessageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,10 +229,13 @@
 				084B6B7D258E039A000138A6 /* WelcomeView.swift in Sources */,
 				080C667D258D224100787563 /* nefelibataApp.swift in Sources */,
 				089F3A2825B9592C0039C8C6 /* Array+Identifiable.swift in Sources */,
+				08648ABF25BD4CCC00C94972 /* MessageView.swift in Sources */,
 				08648AAF25BD335400C94972 /* DrawerLayout.swift in Sources */,
 				0819EDDD25B93AFC000BBC33 /* GridLayout.swift in Sources */,
+				08648AC225BD4D7300C94972 /* MessageMemory.swift in Sources */,
 				0819EDDA25B936F0000BBC33 /* GridView.swift in Sources */,
 				0884030425B7DE6B00F04241 /* EmojiMemoryGame.swift in Sources */,
+				08648ABB25BD4BF100C94972 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,7 +44,17 @@ struct DrawerLayout: View {
                     
                     Spacer()
                     
-                    Text("消息内容")
+                    NavigationView {
+                        // TODO: 这里有个问题，编程深色模式后MessageView的各种效果都没用了
+                        MessageView(dark: self.$dark)
+                            .navigationTitle("消息")
+                            .navigationBarTitleDisplayMode(.inline)
+//                            .navigationBarItems(trailing: Button(action: {}) {
+//                                Image(systemName: "square.and.pencil")
+//                                    .font(.title)
+//                            })
+                            .navigationBarHidden(true)
+                    }
                     
                     Spacer()
                 }
