@@ -76,19 +76,12 @@
 		080C667B258D224100787563 /* nefelibata */ = {
 			isa = PBXGroup;
 			children = (
+				08648AB825BD4AF900C94972 /* Util */,
+				08648AB525BD4A4000C94972 /* Model */,
+				08648AB725BD4A7300C94972 /* View */,
+				08648AB625BD4A6100C94972 /* ViewModel */,
 				080C667C258D224100787563 /* nefelibataApp.swift */,
 				080C667E258D224100787563 /* ContentView.swift */,
-				084B6B7C258E039A000138A6 /* WelcomeView.swift */,
-				0869675A2594C71A0097E833 /* SmallBackgroundView.swift */,
-				0869675D2594C93A0097E833 /* SmallView.swift */,
-				0819EDD925B936F0000BBC33 /* GridView.swift */,
-				0819EDDC25B93AFC000BBC33 /* GridLayout.swift */,
-				089F3A2725B9592C0039C8C6 /* Array+Identifiable.swift */,
-				089F3A2A25B988490039C8C6 /* Array+Only.swift */,
-				0884030825B7E27F00F04241 /* MemoryGame.swift */,
-				088402FB25B7D67E00F04241 /* EmojiGameView.swift */,
-				0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */,
-				08648AAE25BD335400C94972 /* DrawerLayout.swift */,
 				080C6680258D224200787563 /* Assets.xcassets */,
 				080C6685258D224200787563 /* Info.plist */,
 				080C6682258D224200787563 /* Preview Content */,
@@ -102,6 +95,45 @@
 				080C6683258D224200787563 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08648AB525BD4A4000C94972 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0884030825B7E27F00F04241 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08648AB625BD4A6100C94972 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0884030325B7DE6B00F04241 /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08648AB725BD4A7300C94972 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				088402FB25B7D67E00F04241 /* EmojiGameView.swift */,
+				0869675D2594C93A0097E833 /* SmallView.swift */,
+				0869675A2594C71A0097E833 /* SmallBackgroundView.swift */,
+				084B6B7C258E039A000138A6 /* WelcomeView.swift */,
+				0819EDD925B936F0000BBC33 /* GridView.swift */,
+				08648AAE25BD335400C94972 /* DrawerLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08648AB825BD4AF900C94972 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				089F3A2A25B988490039C8C6 /* Array+Only.swift */,
+				089F3A2725B9592C0039C8C6 /* Array+Identifiable.swift */,
+				0819EDDC25B93AFC000BBC33 /* GridLayout.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
