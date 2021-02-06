@@ -75,6 +75,7 @@ struct Pie: Shape {
 ```
 5. ViewModifier
 在 View 上添加修饰图。
+
 ![image](https://chase-oss2.oss-cn-beijing.aliyuncs.com/images/2021-02-06-2.55.58.png)
 
 ![image](https://chase-oss2.oss-cn-beijing.aliyuncs.com/images/2021-02-06-2.57.06.png)
